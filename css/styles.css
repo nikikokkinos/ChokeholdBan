@@ -56,6 +56,12 @@ h2 {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+#mapInfo:hover {
+  background: '#c9c9c9';
+  font-weight: bold;
+  border-width: medium;
+}
+
 #expanded {
   text-align: left;
   font-family: 'Roboto Condensed', sans-serif;

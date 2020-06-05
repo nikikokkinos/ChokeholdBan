@@ -112,12 +112,16 @@ map.on('load', function() {
       .addTo(map)
   })
 
-  map.on('dblclick', 'chokeholdLayer', function() {
-    map.getCanvas().style.cursor = '';
-    chokeholdPopup.remove();
-  })
-
   $('#mapInfo').click( function () {
-        $('#expanded').toggle()
+        $('#expanded').show()
+        $('#titleChange').show()
+        $('#clickHere').hide()
       })
+
+  $('#mapInfo').mouseleave( function () {
+        $('#expanded').hide()
+        $('#clickHere').show()
+        $('#titleChange').hide()
+      })
+
 })
