@@ -5,7 +5,7 @@ var map = new mapboxgl.Map({
   container: 'map', // container id
   style: 'mapbox://styles/niki12step/ck8q9fgpx00d91ipipual7mrl', // my style url
   zoom: 9.5,
-  center: [-73.895255,40.725129],
+  center: [-73.961581,40.683868],
 })
 
 // geojson data
