@@ -13,8 +13,6 @@
   margin: 0px;
   text-align: center;
   left: 38%;
-  /* height: 75px; */
-  width: 300px;
   background: rgba(255, 255, 255, 1);
   font-family: 'Roboto Condensed', sans-serif;
 }
@@ -48,17 +46,18 @@ h2 {
 #mapInfo {
   position: absolute;
   z-index: 1;
+  padding: 5px;
   border-radius: 5px;
   margin: 0px;
   text-align: center;
   bottom: 1%;
-  left: 38%;
-  width: 300px;
+  left: 44%;
   background: rgba(255, 255, 255, 1);
   font-family: 'Roboto Condensed', sans-serif;
 }
 
 #expanded {
+  text-align: left;
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 8px;
+  font-size: 12.5px;
 }

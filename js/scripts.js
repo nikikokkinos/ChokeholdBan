@@ -117,17 +117,7 @@ map.on('load', function() {
     chokeholdPopup.remove();
   })
 
-  // layerToggle functions
-  // var radioButton = $('#layerToggle')
-  //   radioButton.on("click", function () {
-  //     if (document.getElementById('MountSinaiQueens').checked) {
-  //         map.setLayoutProperty('hospitalCD22', 'visibility', 'visible')
-  //     } else { map.setLayoutProperty('hospitalCD22', 'visibility', 'none')
-  //   } if (document.getElementById('BusRoutes').checked) {
-  //         map.setLayoutProperty('busCD22', 'visibility', 'visible')
-  //     } else { map.setLayoutProperty('busCD22', 'visibility', 'none')
-  //   } if (document.getElementById('TruckRoutes').checked) {
-  //         map.setLayoutProperty('truckCD22', 'visibility', 'visible')
-  //     } else { map.setLayoutProperty('truckCD22', 'visibility', 'none')}
-  //   })
+  $('#mapInfo').click( function () {
+        $('#expanded').toggle()
+      })
 })
