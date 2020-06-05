@@ -27,7 +27,7 @@
   width: 400px;
   left: 1px;
   background: rgba(255, 255, 255, 1);
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 h1 {
@@ -35,7 +35,7 @@ h1 {
 }
 
 #expanded {
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   font-size: 14px;
 }
 
@@ -48,7 +48,7 @@ h1 {
   width: 150px;
   top: 48%;
   left: 10%;
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 h2 {
